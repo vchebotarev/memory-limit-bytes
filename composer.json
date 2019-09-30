@@ -1,0 +1,22 @@
+{
+    "name":        "chebur/memory-limit-bytes",
+    "type":        "library",
+    "description": "Returns memory_limit option in bytes",
+    "homepage":    "https://github.com/vchebotarev",
+    "license":     "MIT",
+    "authors": [
+        {
+            "name":     "Vladimir Chebotarev",
+            "homepage": "http://github.com/vchebotarev",
+            "email":    "v.yu.chebotarev@mail.ru"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "require": {
+        "php": "^7.0"
+    }
+}
